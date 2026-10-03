@@ -57,4 +57,8 @@ npm run dev
 
 MD Sharik
 
+## Live Demo
+
+[View Live Project](https://mern-task-manager-pied.vercel.app/)
+
 GitHub: https://github.com/Sharik252
