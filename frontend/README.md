@@ -1,16 +1,60 @@
-# React + Vite
+# MERN Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Task Manager application built using the MERN stack.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add new tasks
+- View all tasks
+- Update tasks
+- Delete tasks
+- Mark tasks as completed
+- Set task priority
+- Add due dates and categories
+- MongoDB database integration
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- CSS
+- Git & GitHub
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+git clone https://github.com/Sharik252/mern-task-manager.git
+
+### 2. Backend Setup
+
+cd mern-task-manager/backend
+
+npm install
+
+Create a `.env` file and add:
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+Start backend:
+
+node server.js
+
+### 3. Frontend Setup
+
+Open a new terminal:
+
+cd mern-task-manager/frontend
+
+npm install
+
+npm run dev
+
+## Author
+
+MD Sharik
+
+GitHub: https://github.com/Sharik252
